@@ -1,0 +1,39 @@
+.btn{
+    width: 150px;
+    height: 50px;
+    border: 2px dashed gray;
+    background-color: aquamarine;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 10px;
+}
+
+.container{
+    padding:0 15% ;
+    margin: 20% 0;
+    border: 1px solid  black;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+    font-size: xx-large;
+}
+
+.btn:last-child {
+    background-color: rgb(157, 74, 74);
+
+}
+
+.btn:active {
+    background-color: red;
+    font-size: small;
+}
+
+.btn:first-child {
+    background-color: rgb(154, 89, 89);
+}
+
+.btn:nth-child(3) {
+    background-color: chocolate;
+}
